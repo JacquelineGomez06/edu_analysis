@@ -9,12 +9,10 @@ with open("states_all.csv", "r") as infile:
         list_data.append(row)
 
 print(len(list_data))
-#list comprehension
+#data for NY and AVG_READING_4_SCORE
 state_analysis=[row for row in list_data if row["STATE"]=="NEW_YORK"]
 score_data=[row["AVG_READING_4_SCORE"] for row in state_analysis]
 print(len(score_data))
-
-#list comprhension
 
 #create function to return only one state and one column to analyze
 def filter(state,column):
