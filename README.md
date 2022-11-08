@@ -1,6 +1,6 @@
 # edu-analysis
 
-[a quick description of your intent & project goal]
+a quick anaylis of US state edu data
 
 
 ## states_all.csv
